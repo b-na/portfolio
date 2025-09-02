@@ -1,69 +1,122 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and TypeScript, featuring an interactive particle background and showcasing web development projects.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Particle Background**: Dynamic particle animation using tsparticles
+- **Responsive Design**: Mobile-first approach with modern UI/UX
+- **Project Showcase**: Featured projects with descriptions and live links
+- **Skills Section**: Visual representation of technical skills with icons
+- **Smooth Animations**: Enhanced user experience with CSS animations
+- **TypeScript**: Full type safety and better development experience
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend Framework**: React 19.1.1
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: CSS3 with modern design principles
+- **Particle Animation**: tsparticles
+- **Code Quality**: ESLint with TypeScript support
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Installation
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd portfolio-website
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the website
+
+## 🏗️ Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint for code quality
+- `npm run preview` - Preview production build
+
+## 📁 Project Structure
+
+```
+portfolio-website/
+├── public/                 # Static assets
+├── src/
+│   ├── assets/            # Images, icons, and project previews
+│   │   ├── icons/         # SVG icons
+│   │   ├── projects-previews/  # Project screenshots
+│   │   └── skills-icons/  # Technology skill icons
+│   ├── components/        # React components
+│   │   ├── Header.tsx     # Navigation header
+│   │   ├── MainContent.tsx # Main content section
+│   │   ├── Footer.tsx     # Footer component
+│   │   ├── ParticlesBackground.tsx # Interactive background
+│   │   ├── ProjectContainer.tsx # Project display component
+│   │   └── Icons.tsx     # Icon components
+│   ├── content/          # Content data
+│   │   └── projects.tsx  # Project information
+│   ├── App.tsx           # Main application component
+│   ├── App.css           # Application styles
+│   ├── index.css         # Global styles
+│   └── main.tsx          # Application entry point
+├── package.json          # Dependencies and scripts
+├── tsconfig.json         # TypeScript configuration
+└── vite.config.ts        # Vite configuration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎯 Featured Projects
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Travel Photography Blog
+- **Description**: A web project showcasing travel destinations through stunning photographs and engaging narratives
+- **Technologies**: HTML5, CSS3, SASS, JavaScript, ReactJS
+- **Live Demo**: [https://travel-photo-blog.sabina-romanova.dev](https://travel-photo-blog.sabina-romanova.dev)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Furniture Store
+- **Description**: An e-commerce website providing an enjoyable online shopping experience for furniture products
+- **Technologies**: HTML5, CSS3, SASS, JavaScript, ReactJS
+- **Live Demo**: [https://cozy-home.sabina-romanova.dev](https://cozy-home.sabina-romanova.dev)
+
+## 🎨 Design Features
+
+- **Modern UI**: Clean, minimalist design with attention to detail
+- **Interactive Elements**: Hover effects and smooth transitions
+- **Particle Background**: Dynamic animated background using tsparticles
+- **Responsive Layout**: Optimized for all device sizes
+- **Accessibility**: Semantic HTML and keyboard navigation support
+
+## 🚀 Deployment
+
+The website is built using Vite and can be deployed to any static hosting service:
+
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy the `dist` folder** to your preferred hosting service (Netlify, Vercel, GitHub Pages, etc.)
+
+## 📝 License
+
+This project is private and proprietary.
+
+## 👤 Author
+
+**Sabina Romanova**
+- Portfolio: [sabina-romanova.dev](https://sabina-romanova.dev)
+- GitHub: [@b-na](https://github.com/b-na)
+
+---
+
+Built with ❤️ using React, TypeScript, and Vite
