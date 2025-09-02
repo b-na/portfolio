@@ -1,0 +1,18 @@
+import reactLogo from '../assets/skills-icons/react.svg'
+import tailwindLogo from '../assets/skills-icons/tailwind.svg'
+import flaskLogo from '../assets/skills-icons/flask.svg'
+import fastapiLogo from '../assets/skills-icons/fastapi.svg'
+import javascriptLogo from '../assets/skills-icons/javascript.svg'
+import typescriptLogo from '../assets/skills-icons/typescript.svg'
+import htmlLogo from '../assets/skills-icons/html.svg'
+import cssLogo from '../assets/skills-icons/css.svg'
+import pythonLogo from '../assets/skills-icons/python.svg'
+import restfulLogo from '../assets/skills-icons/rest-api.svg'
+import gitLogo from '../assets/skills-icons/git.svg'
+import dockerLogo from '../assets/skills-icons/docker.svg'
+import mysqlLogo from '../assets/skills-icons/mysql.svg'
+import scrumLogo from '../assets/skills-icons/scrum.svg'
+import langchainLogo from '../assets/skills-icons/langchain.svg'
+import arrowUpLogo from '../assets/icons/arrow-up.svg'
+
+export { reactLogo, tailwindLogo, flaskLogo, fastapiLogo, javascriptLogo, typescriptLogo, htmlLogo, cssLogo, pythonLogo, restfulLogo, gitLogo, dockerLogo, mysqlLogo, scrumLogo, langchainLogo, arrowUpLogo }
