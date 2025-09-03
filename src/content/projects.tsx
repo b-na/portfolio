@@ -1,7 +1,16 @@
 import furnitureStore from "../assets/projects-previews/funrniture_store.webp";
+import brainyBytes from "../assets/projects-previews/brainy_bytes.webp";
 import travelPhotographyBlog from "../assets/projects-previews/travel_photography_blog.webp";
 
 const projects = [
+
+    {
+        title: "Brainy Bytes",
+        description: "A modern, interactive website showcasing a fictional Kids Code Camp organization. This is a portfolio project demonstrating React, TypeScript, and modern web development skills.",
+        technologies: ["HTML5", "CSS3", "ReactJS", "TypeScript"],
+        image: brainyBytes,
+        link: "https://brainy-bytes.sabina-romanova.dev"
+    },
     {
         title: "Travel Photography Blog",
         description: "The Travel Photography Blog is a web project aimed at bringing the beauty of travel destinations to life through stunning photographs and engaging narratives.",

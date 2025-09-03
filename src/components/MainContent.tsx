@@ -64,7 +64,7 @@ function MainContent() {
             </section>
             <section id="projects">
                 <h2>Projects</h2>
-                <p>I have projects in web development with a focus on creating beautiful and functional websites.</p>
+                <p>This section highlights a selection of my work, showcasing both technical skills and creative problem-solving. Each project represents hands-on experience with different tools, frameworks, and approaches.</p>
                 <div id="projects-container">  
                     {projects.map((project) => (<ProjectContainer key={project.title} project={project} />))}
                 </div>
