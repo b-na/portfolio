@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sabina-romanova.dev/sitemap.xml
+
+# Disallow access to private or sensitive areas
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all other content
+Allow: /src/
+Allow: /public/
+Allow: /assets/
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
