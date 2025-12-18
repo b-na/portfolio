@@ -6,7 +6,7 @@ const projects = [
 
     {
         title: "Brainy Bytes",
-        description: "A modern, interactive website showcasing a fictional Kids Code Camp organization. This is a portfolio project demonstrating React, TypeScript, and modern web development skills.",
+        description: "A modern, minimalistic website showcasing a fictional Kids Code Camp organization. This is a portfolio project demonstrating React, TypeScript, and modern web development skills.",
         technologies: ["HTML5", "CSS3", "ReactJS", "TypeScript"],
         image: brainyBytes,
         link: "https://brainy-bytes.sabina-romanova.dev"
